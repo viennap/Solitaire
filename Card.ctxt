@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=r\ s\ f
+comment0.target=Card(int,\ java.lang.String,\ boolean)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Card.\ \n\ @param\ r\ \ \ \ \ card's\ numerical\ rank\n\ @param\ s\ \ \ \ \ card's\ suit\n\ @param\ f\ \ \ \ \ true\ if\ card\ is\ face\ up;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ false\n
+comment1.params=
+comment1.target=int\ getRank()
+comment1.text=\n\ Retrieves\ card's\ rank,\ which\ ranges\ from\ 1\ to\ 13,\n\ where\ 1\ \=\ Ace\ and\ 13\ \=\ King.\ \n\ @return\ \ \ \ \ \ card's\ numerical\ rank\n
+comment2.params=
+comment2.target=java.lang.String\ getSuit()
+comment2.text=\n\ Retrieves\ card's\ rank,\ where\ "c"\ \=\ clubs,\ "d"\ \=\ diamonds,\n\ "h"\ \=\ hearts,\ and\ "s"\ \=\ spades.\ \n\ @return\ \ \ \ \ \ card's\ suit\n
+comment3.params=
+comment3.target=boolean\ isRed()
+comment3.text=\n\ Determines\ if\ card\ is\ red\ by\ checking\ if\ it's\ suit\ is\n\ a\ diamond\ or\ a\ heart.\ \n\ @return\ \ \ \ \ \ true\ if\ the\ card\ is\ red;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ false\n
+comment4.params=
+comment4.target=boolean\ isFaceUp()
+comment4.text=\n\ Retrieves\ if\ card\ is\ face\ up,\n\ @return\ \ \ \ \ \ true\ if\ card\ is\ face\ up;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ false\n
+comment5.params=
+comment5.target=void\ turnUp()
+comment5.text=\n\ Turns\ the\ card\ so\ that\ is\ facing\ upward.\ \n\ @postcondition\ \ \ \ \ \ \ card\ is\ facing\ upward\n
+comment6.params=
+comment6.target=void\ turnDown()
+comment6.text=\n\ Turns\ the\ card\ so\ that\ it\ is\ facing\ downward.\ \n\ @postcondition\ \ \ \ \ \ \ card\ is\ facing\ downward\n
+comment7.params=
+comment7.target=java.lang.String\ getFileName()
+comment7.text=\n\ Generates\ filename\ of\ card\ according\ to\ characteristics\n\ of\ rank,\ suit,\ and\ face\ up\ or\ down.\ \n\ @return\ \ \ \ \ \ filename\ of\ card\n
+numComments=8
